@@ -1,0 +1,23 @@
+HTML FOR APPLETS
+<html>
+<body>
+<applet code=Reservar.class width=1024 height=1024></applet>
+</body>
+</html>
+
+APPLETS
+para compilar:
+ javac nombre.java
+Ejecutar
+ appletviewer nombre.html
+
+
+J3D
+Compilar:
+javac -cp ;j3dutils.jar;j3dcore.jar;vecmath.jar Nombre.java
+
+javac -cp ;j3dutils.jar;j3dcore.jar;vecmath.jar;jmf.jar SolarSis.java
+
+Ejecutar:
+java -cp ;j3dutils.jar;j3dcore.jar;vecmath.jar Nombre
+
